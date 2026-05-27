@@ -17,7 +17,7 @@
     *   入場費或每日次數限制。
 *   **機制**：在地圖上走動、遇到怪物、寶箱或傳送點，都會更新介面。
 
-> ![image](https://cdn.discordapp.com/attachments/1376213496152457277/1509103192913350697/M_X_P_E_W_.png?ex=6a17f55e&is=6a16a3de&hm=d23de33f899184cd9438c906972f989ec7e61ff1c6dc4feefaf031c7b520aa24&)
+> ![image](https://github.com/Kiyuko0412/rpgg/blob/main/img/1.png)
 
 
 
@@ -25,7 +25,7 @@
 
 為了讓地圖製作更方便，我找AI用 `tkinter` 寫了GUI工具，做一個關卡之前要手動改十幾分鐘的檔到現在只需要幾分鐘。用滑鼠就能操作，可以直接設計地形、修改地圖資料。
 
-> ![image](https://cdn.discordapp.com/attachments/1376213496152457277/1509104303007203388/M_X_P_E_W_1.png?ex=6a17f667&is=6a16a4e7&hm=09eb94227ec79652febbb2d5557722a7e6a11fa1c0a9d22369c5d16db2e71e86&)
+> ![image](https://github.com/Kiyuko0412/rpgg/blob/main/img/2.png)
 
 
 
@@ -35,7 +35,7 @@
 
 並且把角色、怪物、技能、效果都寫成類別，讓未來可以更新更多東西。
 
-> ![image](https://cdn.discordapp.com/attachments/1376213496152457277/1509110764970184784/M_X_P_E_W_2.png?ex=6a17fc6c&is=6a16aaec&hm=187ac416901b82ef39120093f47f1e44ee1efcd78bfae0f3da9cd18a0d33ce91&)
+> ![image](https://github.com/Kiyuko0412/rpgg/blob/main/img/3.png)
 
 
 
@@ -46,7 +46,7 @@
 從玩家的等級經驗、背包物品，到每個怪物的詳細設定，全部都由 SQL 來管理。
 
 
-![image](https://cdn.discordapp.com/attachments/1376213496152457277/1509118122030923847/image.png?ex=6a180346&is=6a16b1c6&hm=8edb9b37915aa5ac44ae0cad76fde368e61d0155e95afcb52056d4681bb9b0e2&)
+![image](https://github.com/Kiyuko0412/rpgg/blob/main/img/4.png)
 
 
 ## 其他小功能
@@ -55,6 +55,6 @@
 *   神社系統：簡單的抽籤互動。
 *   踩地雷小遊戲：在頻道內就能直接挑戰。
 
-![image](https://cdn.discordapp.com/attachments/1376213496152457277/1509114531459371048/image.png?ex=6a17ffee&is=6a16ae6e&hm=057900d0b7304ee608f2bdb7dbe78a89fcb8e4c26bf12e9dfc6df59b7fab7ee8&)
+![image](https://github.com/Kiyuko0412/rpgg/blob/main/img/5.png)
 
 *書審作品-1*
