@@ -1,0 +1,82 @@
+{
+    "modifiers": [
+      {
+        "id": "mod_atk_plus_flat_common",
+        "name": "鋒利的",
+        "effects": { "attack": 3 },
+        "allowed_rarities": ["common"],
+        "allowed_armor_types": ["sword", "axe", "dagger"]
+      },
+      {
+        "id": "mod_hp_plus_flat_common",
+        "name": "結實的",
+        "effects": { "health": 10 },
+        "allowed_rarities": ["common"],
+        "allowed_armor_types": ["helmet_light", "helmet_heavy", "chest_light", "chest_heavy", "legs_light", "legs_heavy"]
+      },
+      {
+        "id": "mod_def_plus_flat_common",
+        "name": "加固的",
+        "effects": { "defense": 5 },
+        "allowed_rarities": ["common"],
+        "allowed_armor_types": ["helmet_light", "helmet_heavy", "chest_light", "chest_heavy", "shield"]
+      },
+      {
+        "id": "mod_atk_plus_flat_rare",
+        "name": "精銳的",
+        "effects": { "attack": 8 },
+        "allowed_rarities": ["rare"],
+        "allowed_armor_types": ["sword", "sword_great", "axe", "bow"]
+      },
+      {
+        "id": "mod_def_plus_flat_rare",
+        "name": "強化的",
+        "effects": { "defense": 12 },
+        "allowed_rarities": ["rare"],
+        "allowed_armor_types": ["helmet_heavy", "chest_heavy", "shield_heavy"]
+      },
+      {
+        "id": "mod_hp_plus_flat_rare",
+        "name": "活力的",
+        "effects": { "health": 25 },
+        "allowed_rarities": ["rare"],
+        "allowed_armor_types": ["chest_light", "chest_heavy", "ring", "amulet"]
+      },
+      {
+        "id": "mod_atk_plus_percent_rare",
+        "name": "致命的",
+        "effects": { "attack_percent": 0.05 },
+        "allowed_rarities": ["rare", "epic"],
+        "allowed_armor_types": ["weapon", "ring"] 
+      },
+      {
+        "id": "mod_def_plus_percent_rare",
+        "name": "守護的",
+        "effects": { "defense_percent": 0.07 },
+        "allowed_rarities": ["rare", "epic"],
+        "allowed_armor_types": ["armor", "shield"]
+      },
+      {
+        "id": "mod_heavy",
+        "name": "笨重的",
+        "effects": { "health_percent": 0.10, "attack_percent": -0.05, "speed": -5 },
+        "allowed_rarities": ["common", "rare"],
+        "allowed_armor_types": ["chest_heavy", "shield_heavy", "weapon_heavy"]
+      },
+      {
+        "id": "mod_light",
+        "name": "輕便的",
+        "effects": { "attack_percent": 0.03, "speed": 5, "defense_percent": -0.05 },
+        "allowed_rarities": ["common", "rare"],
+        "allowed_armor_types": ["chest_light", "dagger", "bow_light"]
+      },
+      {
+        "id": "mod_of_flames",
+        "name": "火焰之",
+        "effects": { "fire_damage_plus": 5, "ice_resist_minus_percent": 0.1 },
+        "allowed_rarities": ["epic", "legendary"],
+        "allowed_armor_types": ["weapon", "ring", "amulet"]
+      }
+    ]
+  }
+  

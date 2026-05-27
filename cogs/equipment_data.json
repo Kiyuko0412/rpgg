@@ -1,0 +1,171 @@
+{
+  "equipment": [
+    {
+      "id": "beginner_sword",
+      "name": "新手劍",
+      "type": "weapon",
+      "armor_type": "sword",
+      "stats": { "attack": 5, "health": 10 },
+      "rarity": "common",
+      "possible_modifiers": ["mod_atk_plus_flat_common", "mod_hp_plus_flat_common"],
+      "passive_skill_id": null,
+      "craftable": true,
+      "required_materials": { "木頭": 5, "石頭碎片": 3 },
+      "crafting_price": 10,
+      "reforge_materials": { "magic_dust_low": 10 },
+      "reforge_price": 20,
+      "enhancement_config": {
+        "max_level": 10,
+        "materials_per_level": {
+          "石頭碎片": 1
+        },
+        "cost_per_level": 50
+      },
+      "buy_price": null,
+      "sell_price": 5,
+      "set_id": null
+    },
+    {
+      "id": "leather_chest",
+      "name": "皮製胸甲",
+      "type": "armor",
+      "armor_type": "chest_light",
+      "stats": { "defense": 8, "health": 15 },
+      "rarity": "common",
+      "possible_modifiers": ["mod_def_plus_flat_common", "mod_hp_plus_flat_common"],
+      "passive_skill_id": null,
+      "craftable": true,
+      "required_materials": { "leather_strap": 4, "string": 2 },
+      "crafting_price": 15,
+      "reforge_materials": { "magic_dust_low": 12 },
+      "reforge_price": 25,
+      "enhancement_config": {
+        "max_level": 10,
+        "materials_per_level": {
+          "enhancement_stone": 1,
+          "leather_strap": 1
+        },
+        "cost_per_level": 60
+      },
+      "buy_price": null,
+      "sell_price": 7,
+      "set_id": null
+    },
+    {
+      "id": "iron_helm",
+      "name": "鐵製頭盔",
+      "type": "armor",
+      "armor_type": "helmet_heavy",
+      "stats": { "defense": 12, "health": 5 },
+      "rarity": "common",
+      "possible_modifiers": ["mod_def_plus_flat_common"],
+      "passive_skill_id": null,
+      "craftable": true,
+      "required_materials": { "iron_ingot": 3, "coal": 1 },
+      "crafting_price": 20,
+      "reforge_materials": { "magic_dust_low": 15 },
+      "reforge_price": 30,
+      "enhancement_config": {
+        "max_level": 10,
+        "materials_per_level": {
+          "enhancement_stone": 1,
+          "iron_ingot": 1
+        },
+        "cost_per_level": 70
+      },
+      "buy_price": 50,
+      "sell_price": 10,
+      "set_id": null
+    },
+    {
+      "id": "guardians_resolve_sword",
+      "name": "守衛者決心之劍",
+      "type": "weapon",
+      "armor_type": "sword_great",
+      "stats": { "attack": 15, "defense": 5, "health": 25 },
+      "rarity": "rare",
+      "possible_modifiers": ["mod_atk_plus_flat_rare", "mod_def_plus_flat_rare", "mod_atk_plus_percent_rare"],
+      "passive_skill_id": "ps_guardian_stance",
+      "craftable": true,
+      "required_materials": { "iron_ingot": 10, "magic_essence_low": 5, "ruby_shard":1 },
+      "crafting_price": 100,
+      "reforge_materials": { "magic_dust_mid": 20, "ruby_shard": 1 },
+      "reforge_price": 150,
+      "enhancement_config": {
+        "max_level": 15,
+        "materials_per_level": {
+          "enhancement_stone": 2,
+          "magic_dust_mid": 1,
+          "ruby_shard": 1
+        },
+        "cost_per_level": 200
+      },
+      "buy_price": null,
+      "sell_price": 50,
+      "set_id": "guardian_set"
+    },
+    {
+      "id": "guardians_resolve_chest",
+      "name": "守衛者決心胸鎧",
+      "type": "armor",
+      "armor_type": "chest_heavy",
+      "stats": { "defense": 25, "health": 50 },
+      "rarity": "rare",
+      "possible_modifiers": ["mod_def_plus_flat_rare", "mod_hp_plus_flat_rare", "mod_def_plus_percent_rare"],
+      "passive_skill_id": null,
+      "craftable": true,
+      "required_materials": { "iron_ingot": 15, "magic_essence_low": 7, "sapphire_shard":1 },
+      "crafting_price": 120,
+      "reforge_materials": { "magic_dust_mid": 25, "sapphire_shard": 1 },
+      "reforge_price": 180,
+      "enhancement_config": {
+        "max_level": 15,
+        "materials_per_level": {
+          "enhancement_stone": 2,
+          "magic_dust_mid": 1,
+          "sapphire_shard": 1
+        },
+        "cost_per_level": 220
+      },
+      "buy_price": null,
+      "sell_price": 60,
+      "set_id": "guardian_set"
+    },
+    {
+      "id": "ring_of_minor_power",
+      "name": "次級力量之戒",
+      "type": "accessory",
+      "armor_type": "ring",
+      "stats": { "attack": 3 },
+      "rarity": "common",
+      "possible_modifiers": ["mod_atk_plus_flat_common"],
+      "passive_skill_id": null,
+      "craftable": false,
+      "required_materials": {},
+      "crafting_price": 0,
+      "reforge_materials": { "magic_dust_low": 5 },
+      "reforge_price": 15,
+      "enhancement_config": {
+        "max_level": 5,
+        "materials_per_level": {
+          "magic_dust_low": 2
+        },
+        "cost_per_level": 30
+      },
+      "buy_price": 30,
+      "sell_price": 10,
+      "set_id": null
+    }
+  ],
+  "set_bonuses": {
+    "guardian_set": {
+      "name": "守衛者決心套裝",
+      "bonuses": [
+        {
+          "count": 2,
+          "effects": { "defense_percent": 0.1, "health_percent": 0.05 }
+        }
+      ]
+    }
+  }
+}

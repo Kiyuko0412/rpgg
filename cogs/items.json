@@ -1,0 +1,236 @@
+{
+  "1": {
+    "id": 1,
+    "name": "奧運銀牌",
+    "description": "bring me the medal",
+    "category": "怪物掉落素材",
+    "tradable": true,
+    "stackable": true,
+    "sell_price": 5
+  },
+  "2": {
+    "id": 2,
+    "name": "四次元口袋",
+    "description": "怪物掉落素材怪物掉落素材",
+    "category": "怪物掉落素材",
+    "tradable": true,
+    "stackable": true,
+    "sell_price": 8
+  },
+  "3": {
+    "id": 3,
+    "name": "貓耳",
+    "description": "可愛的貓耳髮飾，戴上後會讓人感到愉悅。",
+    "category": "怪物掉落素材",
+    "tradable": true,
+    "stackable": true,
+    "sell_price": 10
+  },
+  "4": {
+    "id": 4,
+    "name": "空氣槍",
+    "description": "空氣槍空氣槍空氣槍",
+    "category": "怪物掉落素材",
+    "tradable": true,
+    "stackable": true,
+    "sell_price": 10
+  },
+  "5": {
+    "id": 5,
+    "name": "香菸",
+    "description": "香菸香菸香菸",
+    "category": "怪物掉落素材",
+    "tradable": true,
+    "stackable": true,
+    "sell_price": 10
+  },
+  "6": {
+    "id": 6,
+    "name": "殘破詩章",
+    "description": "殘破詩章殘破詩章殘破詩章",
+    "category": "怪物掉落素材",
+    "tradable": true,
+    "stackable": true,
+    "sell_price": 10
+  },
+  "7": {
+    "id": 7,
+    "name": "毒氣罐",
+    "description": "毒氣罐毒氣罐毒氣罐",
+    "category": "怪物掉落素材",
+    "tradable": true,
+    "stackable": true,
+    "sell_price": 10
+  },
+  "8": {
+    "id": 8,
+    "name": "2.5條悟",
+    "description": "一種神秘的物質，似乎蘊含著強大的力量",
+    "category": "特殊物品",
+    "tradable": true,
+    "stackable": true,
+    "sell_price": 1000
+  },
+  "9": {
+    "id": 9,
+    "name": "凱特屁屁",
+    "description": "鮮嫩多汁",
+    "category": "怪物掉落素材",
+    "tradable": true,
+    "stackable": true,
+    "sell_price": 1010
+  },
+  "10": {
+    "id": 10,
+    "name": "凱特的法院傳票",
+    "description": "是誰在煉銅",
+    "category": "怪物掉落素材",
+    "tradable": true,
+    "stackable": true,
+    "sell_price": 10
+  },
+  "11": {
+    "id": 11,
+    "name": "一坨棉花",
+    "description": "新疆出產",
+    "category": "怪物掉落素材",
+    "tradable": true,
+    "stackable": true,
+    "sell_price": 20
+  },
+  "12": {
+    "id": 12,
+    "name": "木頭",
+    "description": "阿里山出產",
+    "category": "砍伐獲得",
+    "tradable": true,
+    "stackable": true,
+    "sell_price": 5
+  },
+  "13": {
+    "id": 13,
+    "name": "石頭碎片",
+    "description": "圓山出產",
+    "category": "挖礦獲得",
+    "tradable": true,
+    "stackable": true,
+    "sell_price": 1
+  },
+  "14": {
+    "id": 14,
+    "name": "強化石",
+    "description": "新疆出產",
+    "category": "挖礦獲得",
+    "tradable": true,
+    "stackable": true,
+    "sell_price": 600
+  },
+  "15": {
+    "id": 15,
+    "name": "皮革碎片",
+    "description": "未經過處理的皮革碎片",
+    "category": "寶藏獲得",
+    "tradable": true,
+    "stackable": true,
+    "sell_price": 5
+  },
+  "16": {
+    "id": 16,
+    "name": "繩子",
+    "description": "一條堅固的繩子",
+    "category": "寶藏獲得",
+    "tradable": true,
+    "stackable": true,
+    "sell_price": 3
+  },
+  "17": {
+    "id": 17,
+    "name": "iron_ingot",
+    "description": "A bar of refined iron.",
+    "category": "crafting_material",
+    "tradable": true,
+    "stackable": true,
+    "sell_price": 15
+  },
+  "18": {
+    "id": 18,
+    "name": "祈念石",
+    "description": "鎮壓湖神的石片",
+    "category": "任務觸發道具",
+    "tradable": true,
+    "stackable": true,
+    "sell_price": 7
+  },
+  "19": {
+    "id": 19,
+    "name": "magic_essence_low",
+    "description": "Low grade magic essence.",
+    "category": "crafting_material",
+    "tradable": true,
+    "stackable": true,
+    "sell_price": 20
+  },
+  "20": {
+    "id": 20,
+    "name": "紅寶石碎片",
+    "description": "A small shard of ruby.",
+    "category": "crafting_material",
+    "tradable": true,
+    "stackable": true,
+    "sell_price": 50
+  },
+  "21": {
+    "id": 21,
+    "name": "sapphire_shard",
+    "description": "A small shard of sapphire.",
+    "category": "crafting_material",
+    "tradable": true,
+    "stackable": true,
+    "sell_price": 50
+  },
+  "22": {
+    "id": 22,
+    "name": "magic_dust_low",
+    "description": "Low grade magic dust.",
+    "category": "reforge_material",
+    "tradable": true,
+    "stackable": true,
+    "sell_price": 10
+  },
+  "23": {
+    "id": 23,
+    "name": "magic_dust_mid",
+    "description": "Mid grade magic dust.",
+    "category": "reforge_material",
+    "tradable": true,
+    "stackable": true,
+    "sell_price": 30
+  },
+  "24": {
+    "id": 24,
+    "name": "洞穴水晶",
+    "description": "從洞窟深處發現的閃亮水晶，可能具有某种能量。",
+    "category": "素材",
+    "tradable": true,
+    "stackable": true,
+    "sell_price": 75
+  },
+  "25": {
+    "id": 25,
+    "name": "雲霓殘塊",
+    "description": "從洞窟深處發現的閃亮水晶，可能具有某种能量。",
+    "category": "素材",
+    "tradable": true,
+    "stackable": true,
+    "sell_price": 75
+  },
+  "26": {
+    "id": 26,
+    "name": "水織布",
+    "description": "能恢復少量生命值的普通藥水。",
+    "category": "消耗品",
+    "tradable": true,
+    "stackable": true,
+    "sell_price": 25
+  }
+}

@@ -1,0 +1,589 @@
+{
+  "map_oukai_fumunovillage_rakukaji_entrance": {
+    "name": "落霞寺廢墟",
+    "tier": 1,
+    "world": "櫻織界",
+    "area": "楓霧之鄉",
+    "layout": [
+      "WWWWWWWWWW",
+      "WMEP...X.W",
+      "W........W",
+      "W..M.....W",
+      "W........W",
+      "W...M....W",
+      "W......M.W",
+      "W........W",
+      "WWWWWWWWWW"
+    ],
+    "legend": {
+      "W": "emoji_wall",
+      "P": "emoji_ju",
+      "M": "emoji_monster",
+      "E": "emoji_treasure",
+      ".": "emoji_wood_f",
+      "X": "emoji_cave_entrance",
+      "Y": "emoji_forest_exit"
+    },
+    "exits": {
+      "X": {
+        "target_map_id": "map_oukai_fumunovillage_rakukaji_1f",
+        "target_pos": [
+          1,
+          1
+        ]
+      }
+    },
+    "start_pos": [
+      2,
+      4
+    ],
+    "monsters": [
+      {
+        "name": "多拉惡夢",
+        "reinforcement_rate": 1.0
+      }
+    ],
+    "treasure_rewards": {
+      "money": 25,
+      "items": {
+        "皮革碎片": 1
+      }
+    },
+    "dungeon_id": "map_oukai_fumunovillage_rakukaji"
+  },
+  "map_oukai_fumunovillage_rakukaji_1f": {
+    "name": "落霞寺廢墟 - 第一層",
+    "tier": 2,
+    "hidden_in_menu": true,
+    "world": "櫻織界",
+    "area": "楓霧之鄉",
+    "dungeon_id": "map_oukai_fumunovillage_rakukaji",
+    "legend": {
+      "W": "emoji_wall_cave",
+      "P": "emoji_me",
+      "M": "emoji_monster_cave",
+      "E": "emoji_treasure_cave",
+      ".": "emoji_ju_cave",
+      "L": "emoji_cave_exit"
+    },
+    "exits": {
+      "L": {
+        "target_map_id": "map_oukai_fumunovillage_rakukaji_2f",
+        "target_pos": [
+          1,
+          1
+        ]
+      }
+    },
+    "layout": [
+      "WWWWWWWW",
+      "WP.M...W",
+      "W.M.L..W",
+      "W.E.M..W",
+      "W......W",
+      "WWWWWWWW"
+    ],
+    "start_pos": [
+      1,
+      1
+    ],
+    "monsters": [
+      {
+        "name": "起死回生的詩人",
+        "reinforcement_rate": 1.0
+      }
+    ],
+    "treasure_rewards": {
+      "money": 550,
+      "items": {
+        "凱特的法院傳票": 1,
+        "繩子": 1
+      }
+    }
+  },
+  "map_oukai_fumunovillage_rakukaji_2f": {
+    "name": "落霞寺廢墟 - 第二層",
+    "tier": 2,
+    "hidden_in_menu": true,
+    "world": "櫻織界",
+    "area": "楓霧之鄉",
+    "dungeon_id": "map_oukai_fumunovillage_rakukaji",
+    "legend": {
+      "W": "emoji_wall_cave",
+      "P": "emoji_me",
+      "B": "emoji_volcano_boss",
+      "E": "emoji_treasure_cave",
+      ".": "emoji_ju_cave",
+      "X": "emoji_cave_exit",
+      "L": "emoji_reward_exit"
+    },
+    "reward_exits": [
+      {
+        "char": "L",
+        "rewards": {
+          "money": 100,
+          "exp": 500,
+          "items": {
+            "凱特的法院傳票": 10,
+            "繩子": 20
+          }
+        },
+        "target_map_id": "volcano_entrance",
+        "target_pos": [
+          1,
+          4
+        ],
+        "message": "你成功探索了落霞寺廢墟，獲得了豐厚的獎勵！"
+      }
+    ],
+    "layout": [
+      "WWWWWWWW",
+      "WP.....W",
+      "WWWWWW.W",
+      "WEB....W",
+      "WLWWWWWW",
+      "WWWWWWWW"
+    ],
+    "start_pos": [
+      1,
+      1
+    ],
+    "monsters": [
+      {
+        "name": "起死回生的詩人",
+        "reinforcement_rate": 1.0
+      }
+    ],
+    "treasure_rewards": {
+      "money": 550,
+      "items": {
+        "皮革碎片": 1,
+        "繩子": 1
+      }
+    }
+  },
+  "map_oukai_fumunovillage_yuukoku_entrance": {
+    "name": "雲深幽谷",
+    "tier": 5,
+    "world": "櫻織界",
+    "area": "楓霧之鄉",
+    "layout": [
+      "WWWWWWW",
+      "W...EPW",
+      "WM.XWWW",
+      "WWWWWWW"
+    ],
+    "legend": {
+      "W": "emoji_wall_cave",
+      "P": "emoji_me",
+      ".": "emoji_ju_cave",
+      "E": "emoji_treasure_cave",
+      "M": "emoji_monster_cave",
+      "X": "emoji_cave_exit"
+    },
+    "exits": {
+      "X": {
+        "target_map_id": "map_oukai_fumunovillage_yuukoku_1f",
+        "target_pos": [
+          2,
+          3
+        ]
+      }
+    },
+    "start_pos": [
+      1,
+      5
+    ],
+    "entry_cost_money": 200,
+    "daily_limit": 5,
+    "monsters": [
+      {
+        "name": "獄炎鬼喵魔",
+        "reinforcement_rate": 0.1
+      }
+    ],
+    "treasure_rewards": {
+      "money": 75,
+      "items": {
+        "雲霓殘塊": 1
+      }
+    },
+    "dungeon_id": "map_oukai_fumunovillage_yuukoku"
+  },
+  "map_oukai_fumunovillage_yuukoku_1f": {
+    "name": "雲深幽谷 - 第1層",
+    "tier": 4,
+    "world": "櫻織界",
+    "area": "楓霧之鄉",
+    "dungeon_id": "map_oukai_fumunovillage_yuukoku",
+    "hidden_in_menu": true,
+    "layout": [
+      "WWWWWWW",
+      "W..M.LW",
+      "W.MPM.W",
+      "W.M.M.W",
+      "WWWWWWW"
+    ],
+    "legend": {
+      "W": "emoji_wall_cave",
+      "P": "emoji_me",
+      "M": "emoji_monster_cave",
+      ".": "emoji_ju_cave",
+      "L": "emoji_reward_exit"
+    },
+    "reward_exits": [
+      {
+        "char": "L",
+        "rewards": {
+          "money": 50,
+          "exp": 600,
+          "items": {
+            "雲霓殘塊": 100,
+            "殘破詩章": 20
+          }
+        },
+        "target_map_id": "map_oukai_fumunovillage_yuukoku_entrance",
+        "target_pos": [
+          1,
+          4
+        ],
+        "message": "你成功探索了雲深幽谷，獲得了豐厚的獎勵！"
+      }
+    ],
+    "start_pos": [
+      1,
+      1
+    ],
+    "level_depth": 1,
+    "treasure_rewards": {
+      "money": 753,
+      "items": {
+        "雲霓殘塊": 10
+      }
+    },
+    "monsters": [
+      {
+        "name": "風切鴉鬼",
+        "reinforcement_rate": 0.7
+      },
+      {
+        "name": "風切鴉鬼",
+        "reinforcement_rate": 0.3
+      }
+    ],
+    "exits": {}
+  },
+  "volcano_entrance": {
+    "name": "火山入口",
+    "tier": 3,
+    "world": "赫菲斯托斯火山群",
+    "area": "火山外圍",
+    "layout": [
+      "WWWWWWW",
+      "W.P.E.W",
+      "W..X..W",
+      "WWWWWWW"
+    ],
+    "legend": {
+      "W": "emoji_wall_cave",
+      "P": "emoji_me",
+      ".": "emoji_ju_cave",
+      "E": "emoji_treasure_cave",
+      "X": "emoji_cave_exit"
+    },
+    "exits": {
+      "X": {
+        "target_map_id": "volcano_fire_1",
+        "target_pos": [
+          1,
+          1
+        ]
+      }
+    },
+    "start_pos": [
+      1,
+      2
+    ],
+    "entry_cost_money": 100,
+    "daily_limit": 5,
+    "monsters": [
+      {
+        "name": "獄炎鬼喵魔",
+        "reinforcement_rate": 0.1
+      }
+    ],
+    "treasure_rewards": {
+      "money": 75,
+      "items": {
+        "殘破詩章": 1
+      }
+    },
+    "dungeon_id": "volcano_dungeon"
+  },
+  "volcano_fire_1": {
+    "name": "火山副本 - 第1層",
+    "tier": 4,
+    "world": "赫菲斯托斯火山群",
+    "area": "火山外圍",
+    "dungeon_id": "volcano_dungeon",
+    "hidden_in_menu": true,
+    "layout": [
+      "WWWWWWW",
+      "WP.M.XW",
+      "W.MMM.W",
+      "W.M.M.W",
+      "WWWWWWW"
+    ],
+    "legend": {
+      "W": "emoji_wall_cave",
+      "P": "emoji_me",
+      "M": "emoji_monster_cave",
+      ".": "emoji_ju_cave",
+      "X": "emoji_cave_exit"
+    },
+    "exits": {
+      "X": {
+        "target_map_id": "volcano_fire_2",
+        "target_pos": [
+          1,
+          1
+        ]
+      }
+    },
+    "start_pos": [
+      1,
+      1
+    ],
+    "level_depth": 1,
+    "unlocks_map": "volcano_fire_2",
+    "monsters": [
+      {
+        "name": "火山蠑螈",
+        "reinforcement_rate": 0.7
+      },
+      {
+        "name": "火山蠑螈",
+        "reinforcement_rate": 0.3
+      }
+    ]
+  },
+  "volcano_fire_2": {
+    "name": "火山副本 - 第2層",
+    "tier": 4,
+    "world": "赫菲斯托斯火山群",
+    "area": "火山外圍",
+    "hidden_in_menu": true,
+    "layout": [
+      "WWWWWWW",
+      "WP.M.XW",
+      "W.MEM.W",
+      "W.M.M.W",
+      "WWWWWWW"
+    ],
+    "legend": {
+      "W": "emoji_wall_cave",
+      "P": "emoji_me",
+      "M": "emoji_monster_cave",
+      "E": "emoji_treasure_cave",
+      ".": "emoji_ju_cave",
+      "X": "emoji_cave_exit"
+    },
+    "exits": {
+      "X": {
+        "target_map_id": "volcano_fire_3",
+        "target_pos": [
+          1,
+          1
+        ]
+      }
+    },
+    "start_pos": [
+      1,
+      1
+    ],
+    "level_depth": 2,
+    "unlocks_map": "volcano_fire_3",
+    "monsters": [
+      {
+        "name": "火山蠑螈",
+        "reinforcement_rate": 1.0
+      }
+    ],
+    "treasure_rewards": {
+      "money": 100,
+      "items": {
+        "fire_essence_low": 1
+      }
+    },
+    "dungeon_id": "volcano_dungeon"
+  },
+  "volcano_fire_3": {
+    "name": "火山副本 - 第3層 (BOSS)",
+    "tier": 5,
+    "world": "赫菲斯托斯火山群",
+    "area": "火山外圍",
+    "dungeon_id": "volcano_dungeon",
+    "hidden_in_menu": true,
+    "layout": [
+      "WWWWWWW",
+      "WP.B.XW",
+      "W.WEW.W",
+      "WWWWWWW"
+    ],
+    "legend": {
+      "W": "emoji_wall_cave",
+      "P": "emoji_me",
+      "M": "emoji_monster_cave",
+      "B": "emoji_volcano_boss",
+      "E": "emoji_treasure_cave",
+      ".": "emoji_ju_cave",
+      "X": "emoji_reward_exit"
+    },
+    "monsters": [
+      {
+        "name": "獄炎鬼喵魔"
+      }
+    ],
+    "reward_exits": [
+      {
+        "char": "X",
+        "rewards": {
+          "money": 10000,
+          "exp": 5000,
+          "items": {
+            "magic_dust_low": 10,
+            "cave_crystal": 20
+          }
+        },
+        "target_map_id": "volcano_entrance",
+        "target_pos": [
+          1,
+          4
+        ],
+        "message": "你成功擊敗了火山深處的強大魔物，獲得了豐厚的獎勵！"
+      }
+    ],
+    "start_pos": [
+      1,
+      1
+    ],
+    "level_depth": 3,
+    "is_boss_level": true,
+    "treasure_rewards": {
+      "money": 150,
+      "items": {
+        "fire_essence_mid": 1
+      }
+    }
+  },
+  "map_oukai_mizukagami_nakiko_entrance": {
+    "name": "泣湖祠",
+    "tier": 5,
+    "world": "櫻織界",
+    "area": "水鏡洲",
+    "layout": [
+      "WWWWWWW",
+      "W...EPW",
+      "WM.X..W",
+      "WWWWWWW"
+    ],
+    "legend": {
+      "W": "emoji_wall_cave",
+      "P": "emoji_me",
+      ".": "emoji_ju_cave",
+      "E": "emoji_treasure_cave",
+      "M": "emoji_monster_cave",
+      "X": "emoji_cave_exit"
+    },
+    "exits": {
+      "X": {
+        "target_map_id": "map_oukai_mizukagami_nakiko_1f",
+        "target_pos": [
+          2,
+          3
+        ]
+      }
+    },
+    "start_pos": [
+      1,
+      5
+    ],
+    "entry_cost_money": 200,
+    "daily_limit": 5,
+    "monsters": [
+      {
+        "name": "獄炎鬼喵魔",
+        "reinforcement_rate": 0.1
+      }
+    ],
+    "treasure_rewards": {
+      "money": 75,
+      "items": {
+        "水織布": 1
+      }
+    },
+    "dungeon_id": "map_oukai_mizukagami_nakiko"
+  },
+  "map_oukai_mizukagami_nakiko_1f": {
+    "name": "泣湖祠 - 第1層",
+    "tier": 4,
+    "world": "櫻織界",
+    "area": "水鏡洲",
+    "dungeon_id": "map_oukai_mizukagami_nakiko",
+    "hidden_in_menu": true,
+    "layout": [
+      "WWWWWWW",
+      "W..M.LW",
+      "W.MPM.W",
+      "W.M.M.W",
+      "WWWWWWW"
+    ],
+    "legend": {
+      "W": "emoji_wall_cave",
+      "P": "emoji_me",
+      "M": "emoji_monster_cave",
+      ".": "emoji_ju_cave",
+      "L": "emoji_reward_exit"
+    },
+    "reward_exits": [
+      {
+        "char": "L",
+        "rewards": {
+          "money": 50,
+          "exp": 600,
+          "items": {
+            "水織布": 100,
+            "祈念石": 20
+          }
+        },
+        "target_map_id": "map_oukai_mizukagami_nakiko_entrance",
+        "target_pos": [
+          1,
+          4
+        ],
+        "message": "你成功探索了泣湖祠，獲得了豐厚的獎勵！"
+      }
+    ],
+    "start_pos": [
+      1,
+      1
+    ],
+    "level_depth": 1,
+    "treasure_rewards": {
+      "money": 753,
+      "items": {
+        "水織布": 10
+      }
+    },
+    "monsters": [
+      {
+        "name": "火山蠑螈",
+        "reinforcement_rate": 0.7
+      },
+      {
+        "name": "火山蠑螈",
+        "reinforcement_rate": 0.3
+      }
+    ]
+  }
+}
